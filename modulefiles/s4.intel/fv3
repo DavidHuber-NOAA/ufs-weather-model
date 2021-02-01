@@ -10,8 +10,6 @@ module-whatis "loads NEMS FV3 prerequisites for S4/Intel"
 
 # NOTE: the "module purge" and loading of the module command are
 # handled by the module-setup.sh (or .csh) script.
-setenv NCEPLIBS /data/prod/hpc-stack
-
 ##
 ## load programming environment
 ## this typically includes compiler, MPI and job scheduler
@@ -36,7 +34,7 @@ module load jasper/2.0.22
 module load png/1.6.35
 module load zlib/1.2.11
 ## load modules for nceppost grib
-module load nceppost/dceca26
+module load upp/10.0.0
 
 ##
 ## load ESMF library for above compiler / MPI combination

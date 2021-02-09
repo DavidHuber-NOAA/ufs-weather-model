@@ -1,7 +1,7 @@
 [submodule "FV3"]
 	path = FV3
 	url = https://github.com/DavidHuber-NOAA/fv3atm
-	branch = production/GFS.v16_port2s4
+	branch = GFS.v16_port2s4
 [submodule "NEMS"]
 	path = NEMS
 	url = https://github.com/DavidHuber-NOAA/NEMS
